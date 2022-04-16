@@ -15,8 +15,8 @@ client.on('messageCreate', (message) => {
     if(message.content === 'ping'){
         message.reply('pong');
     }
-    if(message.content === 'adi'){
-        message.reply('bafna');
+    if(message.content === 'hi'){
+        message.reply('hello!');
     }
 })
 
